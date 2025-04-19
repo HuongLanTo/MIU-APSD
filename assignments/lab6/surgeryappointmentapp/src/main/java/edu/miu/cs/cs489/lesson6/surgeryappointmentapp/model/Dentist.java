@@ -16,7 +16,4 @@ public class Dentist {
     @Id
     private String dentistNo;
     private String dentistName;
-
-    @OneToMany(mappedBy = "dentist", cascade = CascadeType.ALL)
-    private List<Appointment> appointments;
 } 

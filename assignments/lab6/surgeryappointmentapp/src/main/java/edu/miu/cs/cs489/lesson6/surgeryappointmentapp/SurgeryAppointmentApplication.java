@@ -32,17 +32,17 @@ public class SurgeryAppointmentApplication {
             var surgery1 = new Surgery();
             surgery1.setSurgeryNo("S10");
             surgery1.setName("Surgery 10");
-            surgery1.setAddress(new Address(null, "123 Main St", "Fairfield", "IA", "52557", null, surgery1));
+            surgery1.setAddress(new Address(null, "123 Main St", "Fairfield", "IA", "52557"));
             
             var surgery2 = new Surgery();
             surgery2.setSurgeryNo("S15");
             surgery2.setName("Surgery 15");
-            surgery2.setAddress(new Address(null, "456 Burlington Ave", "Fairfield", "IA", "52556", null, surgery2));
+            surgery2.setAddress(new Address(null, "456 Burlington Ave", "Fairfield", "IA", "52556"));
 
             var surgery3 = new Surgery();
             surgery3.setSurgeryNo("S13");
             surgery3.setName("Surgery 13");
-            surgery3.setAddress(new Address(null, "789 Court St", "Fairfield", "IA", "52557", null, surgery3));
+            surgery3.setAddress(new Address(null, "789 Court St", "Fairfield", "IA", "52557"));
             
             surgeryService.addNewSurgery(surgery1);
             surgeryService.addNewSurgery(surgery2);
@@ -53,22 +53,22 @@ public class SurgeryAppointmentApplication {
             var patient1 = new Patient();
             patient1.setPatNo("P100");
             patient1.setPatName("Gillian White");
-            patient1.setAddress(new Address(null, "111 Patient St", "Fairfield", "IA", "52557", patient1, null));
+            patient1.setAddress(new Address(null, "111 Patient St", "Fairfield", "IA", "52557"));
 
             var patient2 = new Patient();
             patient2.setPatNo("P105");
             patient2.setPatName("Jill Bell");
-            patient2.setAddress(new Address(null, "222 Patient Ave", "Fairfield", "IA", "52557", patient2, null));
+            patient2.setAddress(new Address(null, "222 Patient Ave", "Fairfield", "IA", "52557"));
 
             var patient3 = new Patient();
             patient3.setPatNo("P108");
             patient3.setPatName("Ian MacKay");
-            patient3.setAddress(new Address(null, "333 Patient Dr", "Fairfield", "IA", "52557", patient3, null));
+            patient3.setAddress(new Address(null, "333 Patient Dr", "Fairfield", "IA", "52557"));
 
             var patient4 = new Patient();
             patient4.setPatNo("P110");
             patient4.setPatName("John Walker");
-            patient4.setAddress(new Address(null, "444 Patient Ln", "Fairfield", "IA", "52557", patient4, null));
+            patient4.setAddress(new Address(null, "444 Patient Ln", "Fairfield", "IA", "52557"));
 
             patientService.addNewPatient(patient1);
             patientService.addNewPatient(patient2);

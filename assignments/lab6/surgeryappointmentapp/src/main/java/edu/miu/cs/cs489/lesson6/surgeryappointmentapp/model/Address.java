@@ -18,10 +18,4 @@ public class Address {
     private String city;
     private String state;
     private String zipCode;
-
-    @OneToOne(mappedBy = "address")
-    private Patient patient;
-
-    @OneToOne(mappedBy = "address")
-    private Surgery surgery;
 } 
